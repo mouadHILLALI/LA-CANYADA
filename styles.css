@@ -1,0 +1,355 @@
+
+
+*{
+    font-family: Quicksand , sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.m{
+   
+    background-image: url(images/wood.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+li{
+    list-style: none;
+    margin: 10px;
+}
+li:hover{
+   border-bottom: 1px solid white;
+    padding: 5px 5px;
+    transition: 1s ease;
+}
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    color: aliceblue;
+}
+
+ul{
+    display: flex;
+    
+}
+header{
+    background-color: rgba(58, 53, 53, 1); 
+    position: fixed;
+    width: 100%;
+    padding: 0.5% 0.5%;
+    z-index: 2;
+    
+}
+.Logo{
+    margin-left: 5%;
+}
+.container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    color: aliceblue;
+    margin-top: 25%;
+    animation: ani1;
+    animation-duration: 3s;
+}
+h1{
+    letter-spacing: 30px;
+    border-bottom: 3px solid yellow;
+    font-size: 50px;
+    padding-left: 20px;
+    
+}
+p{
+    width: 70%;
+    margin-bottom: 10%;
+    margin-top: 3%;
+}
+button{
+    padding: 10px 30px;
+    background-color: gold;
+    border-style: none;
+    cursor: pointer;
+    font-size: large;
+   
+}
+button a {
+    color: black;
+}
+@keyframes ani1 {
+    from{opacity: 0%;}
+    to{opacity: 100%;}
+}
+
+div{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+img{
+    width: 80%;
+    margin-left: 10%;
+}
+footer{
+    height: 40vh;
+    width: 100%;
+    align-items: center;
+}
+.foot1 img{
+    width:30%;
+}
+.foot1 div{
+    display: flex;
+    flex-direction: row;
+
+}
+.foot2{
+    padding: 1px 1px;
+    width: 40%;
+    margin-top: 10%;
+}
+.foot2 p {
+    margin: 0;
+    margin-left: 20%;
+    color: aliceblue;
+}
+.m2{
+    background-color: black;
+    font-family: Quicksand;
+}
+.container2{
+    color: aliceblue;
+    margin-top: 0%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.container2 h1{
+    color: aliceblue;
+    letter-spacing: 2px;
+    padding-right: 20px;
+    margin-top: 10%;
+}
+.container2 p{
+    width: 60%;
+}
+.imagecon2{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20%;
+    gap: 80px;
+
+}
+
+.container2 button{
+    margin-top: 5%;
+    background-color: transparent;
+    border: 1px solid gold;
+}
+.container2 a{
+    color: gold;
+}
+.containerfoot{
+  background-image: url(images/wood-2.png);
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 3%;
+  margin-top: 10%;
+  color: aliceblue;
+  align-items: center;
+}
+.containerfoot h1{
+    border-bottom: none;
+    margin-top: 5% ;
+}
+.containerfoot div{
+margin-top: 5%;
+height: 18%;
+}
+.con1{
+    display: flex;
+    flex-direction: column;
+}
+.img1{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10%;
+}
+.para1 p{
+    margin-top: 12%;
+    background-color: rgb(0, 0, 0);
+    width: max-content;
+    
+}
+.About1{
+    color: aliceblue;
+    width: 60%;
+    font-size: larger;
+}
+.About1 h1{
+    margin-top: 5%;
+}
+.resto{
+    width: 60%;
+    margin-top: 20%;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+}
+.text1{
+    letter-spacing: 5px;
+}
+.text2{
+    letter-spacing: 5px;
+}
+.About2{
+    color: aliceblue;
+    width: 60%;
+    font-size: larger;
+    margin-bottom: 13%;
+}
+.M{
+    padding-left: 17%;
+}
+.M1{
+    padding-left: 14%;
+}
+.About2 p{
+    padding-right: 9%;
+}
+
+.cont{
+    color: aliceblue;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    align-items: center;
+}
+textarea{
+    width: 100%;
+    padding: 10% 50% 50% 50% ;
+    font-size: larger;
+    border-radius: 15px;
+}
+input{
+    width: 100%;
+    padding: 10% 50% ;
+    font-size: larger;
+    margin-bottom: 6%;
+    border-radius: 15px;
+}
+.cont h1{
+    margin-top: 10%;
+}
+.sub1{
+    background-color: gold;
+    cursor: pointer;
+    text-align: center;
+    padding: 10% 10%;
+    margin-top: 7%;
+    border-radius: 0px;
+}
+.text3{
+    letter-spacing: 5px;
+    padding-right: 20px ;
+    margin-bottom: 8%;
+}
+.M2{
+    width: 50%;
+}
+.About3{
+    color: aliceblue;
+    width: 60%;
+    font-size: larger;
+    margin-bottom: 19%;
+}
+.text4{
+    letter-spacing: 5px;
+    color: aliceblue;
+    text-align: center;
+    border-bottom: 1px solid gold;
+}
+.img3 {
+    margin-top: 10%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+    margin-left: 5%;
+    animation-name: ani2;
+    animation-duration: 1s;
+
+}
+.Order{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.menu_anchor{
+    background-color: gold;
+    padding: 10px 6px;
+    color: black;
+}
+.menu_anchor1{
+    background-color: gold;
+    padding: 10px 6px;
+    margin-left: 9%;
+    color: black;
+
+}
+.menu1{
+    margin-top: 5%;
+    outline: 1px solid gold;
+    padding: 10px 6px;
+    color: black;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+button:hover{
+    background-color: aliceblue;
+    transition: 1s ease;
+}
+@keyframes ani2 {
+    from{margin-left: 100%;}
+    to{margin-left: 5%;}
+}
+.img1{
+    gap: 50%;
+    margin-top: 2%;
+    align-self: center;
+    margin-right: 15%;
+}
+i{
+    margin-top: 3%;
+    font-size: 70px;
+    color: rgb(241, 217, 0);
+}
+i:hover{
+    transform: rotate(360deg);
+    transition: 1s ease;
+}
+.maintext{
+    font-size: larger;
+}
+iframe{
+    margin-left: 7%;
+    border-radius: 10%;
+}
